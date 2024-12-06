@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## React Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React implementation of the design provided in the Figma prototype. The application is fully responsive and includes hover animations as specified.
 
-## Available Scripts
+## Features
+Responsive Design: Optimized for both desktop and mobile devices.
+Hover Animations: Implemented as per the Figma prototype.
+Clean Code: Modular and follows best practices for scalability and readability.
 
-In the project directory, you can run:
+## Prerequisites
+Before running this project, ensure you have the following installed:
 
-### `npm start`
+# Git:
+Download and install Git from git-scm.com. Follow the installation instructions for your operating system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Node.js and npm:
+Download and install Node.js (which includes npm) from nodejs.org.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Visual Studio Code (VS Code):
+Download and install VS Code from code.visualstudio.com.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+Follow these steps to set up and run the project locally:
 
-### `npm run build`
+# 1. Clone the Repository
+Open your terminal or command prompt and run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Copy code
+git clone [repository link]  
+cd [repository folder name]  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Install Dependencies
+Ensure you are inside the project folder, then run:
+npm install  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Start the Development Server
+To start the application, run:
+npm start  
 
-### `npm run eject`
+# 4. View the Application
+Open your browser and go to:
+http://localhost:3000  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Notes
+Feel free to contact me for any questions or issues.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+------------------------------------------------------------------------------------------------------------------------
+## Additional Setup Instructions
+If you are new to React or have not set it up before, follow these additional steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Install Git:
 
-## Learn More
+## Download Git from git-scm.com and follow the installation wizard.
+Verify installation by running git --version in the terminal.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Install Node.js:
+Download Node.js from nodejs.org.
+Verify installation by running node --version and npm --version in the terminal.
 
-### Code Splitting
+## Install VS Code:
+Download VS Code from code.visualstudio.com.
+Install recommended extensions for React development, such as "ES7+ React/Redux/React-Native snippets."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Contact
+Sneha Gupta
+[gupta.sneha17121@gmail.com] | www.linkedin.com/in/snehagupta10]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
