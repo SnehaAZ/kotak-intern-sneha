@@ -1,49 +1,48 @@
-## React Assignment
+# React Assignment
 
 This project is a React implementation of the design provided in the Figma prototype. The application is fully responsive and includes hover animations as specified.
 
-## Features
+# Features
 Responsive Design: Optimized for both desktop and mobile devices.
 Hover Animations: Implemented as per the Figma prototype.
 Clean Code: Modular and follows best practices for scalability and readability.
 
-## Prerequisites
+# Prerequisites
 Before running this project, ensure you have the following installed:
 
-# Git:
+## Git:
 Download and install Git from git-scm.com. Follow the installation instructions for your operating system.
 
-# Node.js and npm:
+## Node.js and npm:
 Download and install Node.js (which includes npm) from nodejs.org.
 
-# Visual Studio Code (VS Code):
+## Visual Studio Code (VS Code):
 Download and install VS Code from code.visualstudio.com.
 
 
-## Installation
+# Installation
 Follow these steps to set up and run the project locally:
 
-# 1. Clone the Repository
+## 1. Clone the Repository
 Open your terminal or command prompt and run:
 
-Copy code
 git clone [repository link]  
 cd [repository folder name]  
 
-# 2. Install Dependencies
+## 2. Install Dependencies
 Ensure you are inside the project folder, then run:
 npm install  
 
-# 3. Start the Development Server
+## 3. Start the Development Server
 To start the application, run:
 npm start  
 
-# 4. View the Application
+## 4. View the Application
 Open your browser and go to:
 http://localhost:3000  
 
 
-### Notes
+## Notes
 Feel free to contact me for any questions or issues.
 
 ------------------------------------------------------------------------------------------------------------------------
