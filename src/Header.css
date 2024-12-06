@@ -1,0 +1,114 @@
+/* General Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+}
+
+body {
+    padding-top: 40px;
+}
+
+/* Header Content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+
+
+}
+
+/* Logo */
+.logo {
+    height: 50px;
+    object-fit: contain;
+    margin-right: auto;
+}
+
+/* Open Button */
+.open-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3857FF;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 520;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    min-width: 100px;
+    margin-left: auto;
+}
+
+@media (max-width: 1440px) {
+    .header-content {
+        gap: 1rem;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .open-button {
+        font-size: 14px;
+    }
+}
+
+/* Responsive Design for Smaller Screens (Phones) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        padding: 20px 2%;
+    }
+
+    .header-content {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .open-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+/* Responsive Design for Extra Small Screens (Phones <480px) */
+@media (max-width: 480px) {
+    .header-content {
+        gap: 0.5rem;
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .open-button {
+        font-size: 12px;
+        padding: 10px 20px;
+        margin-left: auto;
+    }
+}
