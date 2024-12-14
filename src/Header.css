@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
+    padding: 20px 5%;
     background-color: rgba(255, 255, 255, 0.75);
     box-sizing: border-box;
     backdrop-filter: blur(10px);
@@ -18,7 +18,7 @@
 }
 
 body {
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 /* Header Content */
@@ -28,8 +28,6 @@ body {
     justify-content: space-between;
     width: 100%;
     gap: 2rem;
-
-
 }
 
 /* Logo */
@@ -50,7 +48,7 @@ body {
     border: none;
     border-radius: 32px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 520;
+    font-weight: 400;
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
@@ -60,12 +58,17 @@ body {
 }
 
 @media (max-width: 1440px) {
+
+    body {
+        padding-top: 80px;
+    }
     .header-content {
         gap: 1rem;
+         
     }
 
     .logo {
-        height: 35px;
+        height: 40px;
     }
 
     .open-button {
@@ -78,6 +81,7 @@ body {
     .header {
         flex-direction: row;
         padding: 20px 2%;
+        
     }
 
     .header-content {

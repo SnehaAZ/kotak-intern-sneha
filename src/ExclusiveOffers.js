@@ -29,8 +29,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>30% off on restaurant bills</h3>
-            <p>Up to ₹1,000 per transaction. No minimum bill value. </p>
-            <p>Offer available 4 times a month on your debit card.</p>
+            <p>Up to ₹1,000 per transaction. No minimum bill value. 
+            Offer available 4 times a month on your debit card.</p>
           </div>
         </div>
 
@@ -42,8 +42,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>20% off on tickets</h3>
-            <p>Up to ₹100 per transaction. No minimum bill value.</p>
-            <p>Offer available 2 times a month on your debit card.</p>
+            <p>Up to ₹100 per transaction.No minimum bill value.
+            Offer available 2 times a month on your debit card.</p>
           </div>
         </div>
         {/* 3 */}
@@ -53,8 +53,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>15% off on grocery delivery</h3>
-            <p>Up to ₹250 per transaction. ₹749 minimum bill value.</p>
-            <p>Offer available 2 times a month on your debit card.</p>
+            <p>Up to ₹250 per transaction. ₹749 minimum bill value.
+            Offer available 2 times a month on your debit card.</p>
           </div>
         </div>
 
@@ -65,8 +65,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>15% off on grocery delivery</h3>
-            <p>Up to ₹250 per transaction. ₹749 minimum bill value.</p>
-            <p>Offer available 2 times a month on your debit card.</p>
+            <p>Up to ₹250 per transaction. ₹749 minimum bill value.
+            Offer available 2 times a month on your debit card.</p>
           </div>
         </div>
 
@@ -77,8 +77,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>15% off on grocery delivery</h3>
-            <p>Up to ₹250 per transaction. ₹999 minimum bill value. </p>
-            <p>Offer available 2 times a month on your debit card.</p>
+            <p>Up to ₹250 per transaction. ₹999 minimum bill value. 
+          Offer available 2 times a month on your debit card.</p>
           </div>
         </div>
 
@@ -89,8 +89,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>₹150 voucher on 50 transactions</h3>
-            <p>Complete 50 transactions to earn a voucher worth ₹150,</p>
-            <p>giving you extra rewards for your transactions.</p>
+            <p>Complete 50 transactions to earn a voucher worth ₹150,
+            giving you extra rewards for your transactions.</p>
           </div>
         </div>
 
@@ -102,8 +102,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>₹250 voucher on 100 transactions</h3>
-            <p>Complete 100 transactions to earn a voucher worth ₹250,</p>
-            <p>giving you extra rewards for your transactions.</p>
+            <p>Complete 100 transactions to earn a voucher worth ₹250,
+            giving you extra rewards for your transactions.</p>
           </div>
         </div>
 
@@ -114,8 +114,8 @@ const OffersSection = () => {
           </div>
           <div className="offers-card-content">
             <h3>₹250 voucher on birthday & anniversary</h3>
-            <p>Celebrate with gift vouchers worth ₹250 on your birthday </p>
-            <p>and anniversary with the bank.</p>
+            <p>Celebrate with gift vouchers worth ₹250 on your birthday 
+            and anniversary with the bank.</p>
           </div>
         </div>
       </div>

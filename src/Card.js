@@ -33,17 +33,18 @@ const Card = () => {
           <img src={phone} alt="pinkgift" className="phone" />
         </div>
         <div className="card-right">
-          <h1>Get monthly discount deals of up to ₹5,700</h1>
-          <div className="underline"></div>
+        <h1>Get monthly discount deals of up to <span className="thin-rupee">₹</span>5,700</h1>
+        <div className ="underline"></div>
           <p>
             Enjoy exclusive offers and discounts on popular brands like Zepto,
             Blinkit, Swiggy Instamart, BookMyShow, and EazyDiner.
           </p>
         </div>
+        
       </div>
       <div className="small-card-container">
         {/* First Card */}
-        <div className="small-card">
+        <div className="small-card1">
           <div className="small-card-content">
             <h1>Pay using your<br></br> Everyday debit card</h1>
             <div className="red-underline"></div>
@@ -64,8 +65,9 @@ const Card = () => {
             <p>
               Enjoy FD-like interest in your Savings Account <br />
               with the ActivMoney facility. Access your <br />
-              money anytime with no penalty.
+              money anytime with no penalty.<br></br><span class="deposit-text" >* FOR DEPOSITS ABOVE 7 DAYS. T&C APPLY</span>
             </p>
+        
 
             <div className="seven-container">
               <img src={red} alt="Red Seven" className="seven red" />
