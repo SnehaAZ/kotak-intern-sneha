@@ -239,11 +239,11 @@
 
 
 /* responsive of main 1 card */
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .card {
     flex-direction: column; /*  images vertically */
     align-items: flex-start; /* content to the left */
-    padding: 10px; /*internal padding */
+    padding: 5px; /*internal padding */
     width: 360px; 
     height: auto;
     margin-left: 90px;
@@ -427,7 +427,7 @@
   width: 203px;
   height: 282px;
   transform: scale(0); /* Hidden by default, using scale for visibility */
-  transition: transform 2s cubic-bezier(1.42, 0, 1.58, 1); /* Slow down the transition duration */
+  transition: transform 2s cubic-bezier(1.42, 0, 1.26, 9); /* Slow down the transition duration */
 }
 
 .red {
@@ -532,7 +532,7 @@
 
 
 /* Media query for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .small-card-container {
     flex-direction: column;
     gap: 5px; 
@@ -550,7 +550,7 @@
     overflow: hidden;
     flex-direction: column; /*  images vertically */
     align-items: flex-start; /* content to the left */
-    padding: 10px; /*internal padding */
+    padding: 5px; /*internal padding */
     width: 360px; 
     height: 485px;
     margin-left: 90px;
